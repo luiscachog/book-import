@@ -14,9 +14,9 @@ spec:
       labels:
         name: uploader
     spec:
-      securityContext:
-        runAsUser: 1000580000
-        fsGroup: 1000580000
+      # securityContext:
+      #   runAsUser: 1000580000
+      #   fsGroup: 1000580000
       containers:
       - image: quay.io/rcook/tools:php-demo
         name: tools
